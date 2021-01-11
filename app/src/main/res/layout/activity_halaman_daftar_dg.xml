@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/latar"
+    android:layout_height="match_parent"
+    tools:context=".HalamanDaftarDg">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/txt_dg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="130dp"
+        android:text="Silahkan isi data pendaftaran dibawah :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_namadg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:paddingStart="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#8F8D8D"
+        android:textColorLink="#CFCACA " />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_namadg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Pendidikan"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spn_pdkndg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/ed_nowadg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/spn_pdkndg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Nomor Whatsapp/Hp"
+        android:inputType="number"
+        android:paddingStart="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#8F8D8D"
+        android:textColorLink="#CFCACA " />
+
+    <EditText
+        android:id="@+id/ed_alamatdg"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/ed_nowadg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="text"
+        android:paddingStart="15dp"
+        android:textColor="#000000"
+        android:textColorHint="#8F8D8D"
+        android:textColorLink="#CFCACA " />
+
+    <ImageView
+        android:id="@+id/btn_daftardg"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/foto_dg"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/btn_daftar" />
+
+    <ImageView
+        android:id="@+id/foto_dg"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/ed_alamatdg"
+
+        android:layout_centerHorizontal="false"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/bulet"
+        android:visibility="visible"
+        tools:srcCompat="@android:drawable/screen_background_dark"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_alamatdg"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        android:text="Silahkan Input Foto Anda :"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
