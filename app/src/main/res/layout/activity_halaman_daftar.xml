@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/latar"
+    android:layout_height="match_parent"
+    tools:context=".HalamanDaftar">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/btn_dfmp"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:onClick="haldafmp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/btn_daftar_mp" />
+
+    <ImageView
+        android:id="@+id/btn_dfwp"
+        android:layout_width="340dp"
+        android:onClick="haldafwp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        app:srcCompat="@drawable/btn_daftar_wp" />
+
+    <ImageView
+        android:id="@+id/btn_dfdg"
+        android:layout_width="340dp"
+        android:layout_height="200dp"
+        android:onClick="haldafdg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="440dp"
+        app:srcCompat="@drawable/btn_daftar_dg" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/latar"
+    tools:context=".HalamanMobilePro">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/txt_mp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="340dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/img_senin" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="340dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/img_rabu" />
+
+    <ImageView
+        android:id="@+id/btn_daftar1"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="7dp"
+        android:onClick="lintasmp"
+        android:layout_marginTop="450dp"
+        app:srcCompat="@drawable/btn_daftar" />
+
+</RelativeLayout>
